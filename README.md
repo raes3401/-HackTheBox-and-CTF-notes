@@ -54,6 +54,12 @@ ans:No
   
   ![image](https://github.com/user-attachments/assets/3004d88e-1ee3-499b-ad98-d7fc5621d6f4)
 
+知道版本號，就可以從GOOGLE查該版本的CVE漏洞使用
+
+  ![image](https://github.com/user-attachments/assets/308c8dfc-1b0c-44b8-8485-245a85b0fbab)
+  
+
+
   
 
   
