@@ -34,13 +34,13 @@ ans:No
   題目要求你找出在 Lame 靶機 上運行的 Samba（SMB）伺服器版本號，只填寫 數字部分，不要包含像 -Debian 的發行版本資訊。
 
   ![image](https://github.com/user-attachments/assets/a50f0009-4268-41bd-802d-1dfc4cdc4e3f)
-  執行畫面
   
+  執行畫面
   ![image](https://github.com/user-attachments/assets/fa70969f-aeff-4b76-9276-4c7ab9ab4ebe)
 
   ![image](https://github.com/user-attachments/assets/f0b951f0-3884-41aa-8aef-51feed9fba26)
-  執行畫面
   
+  執行畫面 
   ![image](https://github.com/user-attachments/assets/3004d88e-1ee3-499b-ad98-d7fc5621d6f4)
 
   
