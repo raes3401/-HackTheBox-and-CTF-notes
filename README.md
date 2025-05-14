@@ -16,6 +16,7 @@ ans:4
 ans:2.3.4
 
 3.There is a famous backdoor in VSFTPd version 2.3.4, and a Metasploit module to exploit it. Does that exploit work here?
+  VSFTPd 2.3.4 的後門漏洞在這台 Lame 機器上是否可被成功利用？
 
 ![image](https://github.com/user-attachments/assets/dda3ede2-df54-4fde-9118-e1937bea4c48)
 
