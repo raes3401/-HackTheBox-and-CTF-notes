@@ -18,8 +18,12 @@ ans:2.3.4
 3.There is a famous backdoor in VSFTPd version 2.3.4, and a Metasploit module to exploit it. Does that exploit work here?
 
 ![image](https://github.com/user-attachments/assets/dda3ede2-df54-4fde-9118-e1937bea4c48)
+
 ![image](https://github.com/user-attachments/assets/5bdf18ac-f39e-4bc8-95b2-bba98ef8a4a4)
+
 ![image](https://github.com/user-attachments/assets/6f6b9a00-1239-4e63-b2f8-ccde5d3d4ec4)
+
 ![image](https://github.com/user-attachments/assets/f838a785-b551-46e4-8646-dea137aee549)
+
 ![image](https://github.com/user-attachments/assets/ee3c085d-fb0b-4715-88bb-485743bf4ef9)
 ans:No
